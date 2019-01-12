@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import "./App.css";
 import Navbar from "./Navbar";
+import Contact from "./Contact";
 
 class App extends Component {
   render() {
@@ -40,10 +41,13 @@ class App extends Component {
             </div>
           </div>
         </div>
-        <div className="contact-container">
-          <div className="contact-fom">
-            This is where a form for the contact information is going to be
-          </div>
+        <Contact />
+        <div className="footer">
+          <ul className="footer-links">
+            <li>github</li>
+            <li>linkedin</li>
+          </ul>
+          <p>copyright Brandon Griffith 2019</p>
         </div>
       </div>
     );
