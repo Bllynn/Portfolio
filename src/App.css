@@ -170,18 +170,20 @@ table {
   border: 1px solid black;
 }
 .background-image1 {
-  background-color: blue;
+  background-attachment: fixed;
+  background-image: url("./pillars_of_creation-t2.jpg");
   height: 90vh;
   width: 100%;
   position: relative;
 }
 .background-image2 {
-  position: relative;
-  background-color: purple;
+  background-attachment: fixed;
+  background-image: url("./pinwheel_galaxy.jpg");
   height: 100vh;
   width: 100%;
 }
 .background-image3 {
+  background-image: url("./pillars_of_creation-t2.jpg");
   position: relative;
   background-color: green;
   height: 90vh;
@@ -190,14 +192,14 @@ table {
 .intro {
   height: 130px;
   width: 100%;
-  background-color: purple;
+  background: transparent;
   overflow: hidden;
   margin-top: 50px;
   margin-bottom: 50px;
 }
 .projects-container {
   display: flex;
-  background-color: pink;
+  background: transparent;
   flex-direction: column;
   height: 100%;
   width: 100%;
@@ -244,4 +246,8 @@ div > h1 {
 .footer > p {
   text-align: center;
   font-size: 10px;
+}
+textarea {
+  font-family: inherit;
+  font-size: inherit;
 }
