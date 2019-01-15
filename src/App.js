@@ -2,18 +2,18 @@ import React, { Component } from "react";
 import "./App.css";
 import Navbar from "./Navbar";
 import Contact from "./Contact";
-import pillars from "./pillars_of_creation-t2.jpg";
-import pinwheel from "./pinwheel_galaxy.jpg";
+
 
 class App extends Component {
   render() {
     return (
       <div className="app">
-        <div className="background-image1" backgroundImage={pillars}>
+        <div className="background-image1">
           <Navbar />
           <div className="intro">
             <h1>Brandon Griffith</h1>
             <p>
+              
               I need to write a chunk of text that actually demonstrates what
               actual text on a page might look like. With proper spacing and
               indentation, we can see that the words flow on the page a certain
