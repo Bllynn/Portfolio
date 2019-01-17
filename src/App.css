@@ -169,7 +169,7 @@ table {
 }
 .background {
   background-attachment: fixed;
-  height: 100vh;
+  height: auto;
   width: 100%;
 }
 .color-1 {
@@ -188,8 +188,6 @@ table {
   background-image: url("./assets/skillsbg.jpg");
 }
 .image3 {
-  max-width: 100%;
-  max-height: 100%;
   background-image: url("./assets/pillars_of_creation-t2.jpg");
 }
 .intro {
@@ -219,6 +217,7 @@ div > h1 {
 }
 .contact-container {
   background-color: blueviolet;
+  padding: 20px;
 }
 .contact-form {
   max-width: 75%;
@@ -242,7 +241,8 @@ div > h1 {
   justify-content: center;
 }
 .footer-links > li {
-  padding-left: 10px;
+  padding-left: 5px;
+  padding-right: 5px;
 }
 .footer > p {
   text-align: center;
@@ -259,6 +259,7 @@ textarea {
   border-radius: 50%;
 }
 .skills-container {
+  padding: 20px;
   height: auto;
 }
 .skills {
